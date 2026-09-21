@@ -10,7 +10,7 @@ Battery material synthesis calculation tool with interactive GUI.
 ## Supported Formula Syntax
 | Example | Meaning |
 |---|---|
-| `Li1Ni0.6Co0.2Mn0.2O2` | standard fractional formula |
+| `Li0.7Ni0.63Co0.15Mn0.19O2` | standard fractional formula |
 | `Ni(OH)2` | parenthetical groups (integer or float coefficient) |
 | `LiOH*H2O` or `LiOH·H2O` | hydrate notation |
 | `Li2CO3` | integer stoichiometry |
