@@ -44,7 +44,7 @@ ELEMENT_MOLAR_MASS = {
 def parse_formula(formula: str) -> dict:
     """
     Parse a chemical formula string into {element: stoichiometry} dict.
-    Supports: Li0.7Ni0.63Co0.15Mn0.19O2, Ni(OH)1.84(FBrSI)0.04, LiOH*H2O, LiOH·H2O
+    Supports: Li0.7Ni0.63Co0.15Mn0.19O2, Ni(OH)2, LiOH*H2O, LiOH·H2O
     """
     # Normalize hydrate notation: * or · → explicit expansion
     formula = formula.strip()
@@ -73,7 +73,7 @@ def parse_formula(formula: str) -> dict:
 def _parse_simple(formula: str) -> dict:
     """
     Parse formula handling parentheses groups with float stoichiometry.
-    e.g. Ni(OH)1.84(FBrSI)0.04
+    e.g. Ni(OH)2
     """
     elements = {}
 

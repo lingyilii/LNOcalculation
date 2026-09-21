@@ -239,8 +239,8 @@ class App(tk.Tk):
         self.e_spent.pack(fill="x", pady=4)
 
         self.e_precursor = LabeledEntry(sec1, "Ni Precursor Formula",
-            default="Ni(OH)1.84(FBrSI)0.04",
-            tooltip="Enter the Ni source precursor formula.\nExample: Ni(OH)1.84(FBrSI)0.04 or Ni(OH)2",
+            default="Ni(OH)2",
+            tooltip="Enter the Ni source precursor formula.\nExample: Ni(OH)2",
             hint="e.g. Ni(OH)2")
         self.e_precursor.pack(fill="x", pady=4)
 
